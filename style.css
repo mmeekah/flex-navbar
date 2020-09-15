@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+.center-box {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   padding: 30px;
+   background-color: rgb(72, 123, 233);
+}
+
+img {
+    height: 100px;
+    width: 100;
+}
+.center-box h1{
+    color: snow;
+    font-family: 'Montserrat', sans-serif;
+}
+    
+.center-box ul li {
+    /* display: inline; */
+    display: inline-flex;
+}
+.center-box ul li a {
+    color: snow;
+    font-family: 'Montserrat', sans-serif;
+}
